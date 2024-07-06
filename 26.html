@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            background: url('/rkp.png.jpg')
+
+        }
+        .left img{
+            width: 300px;
+            filter: invert(100%);  
+        }
+        .left div{
+            text-align: center;
+            
+        }
+        .left{
+            display: inline-block;
+            border: 2px solid yellow;
+            position: absolute;
+            left: 35px;
+            top: 20px;
+        }
+        .mid{
+            margin: 12px auto;
+            display: block;
+            width: 33%;
+            border: 2px solid red;
+            margin: 20px auto;
+        }
+        .right{
+            position: absolute;
+            right: 35px;
+            top: 20px;
+            display: inline-block;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            color: white;
+            display: inline-block;
+        }
+        .navbar li a{
+            /* display: inline block; */
+            color: white;
+            text-decoration: none;
+            /* padding: 35px 20px; */
+            /* font-size: 60px; */
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgba(55, 248, 7, 0.849);
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: rgb(94, 41, 143);
+            color: white;
+            padding: 60px 90px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="/rkp.png.jpg" alt=""> 
+<div>Prajapati Fitness</div>                
+        </div>
+        <div class="right">
+           <!-- <botton class="btn">Call US Now</botton>
+           <botton class="btn">Email Us</botton> -->
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About us</a></li>
+                <li><a href="#" class="active">Fitness calculator</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul> 
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+<head>
+        <title>Keyframes And Animations</title>
+ </head>
+ <style>
+     .box{
+         background-color: aquamarine;
+         width: 250px;
+         height: 250px;
+         position: relative;
+         animation-name: Rushit2;
+         animation-duration: 1s;
+         animation-iteration-count: infinite;
+         animation-fill-mode: forwards;
+         animation-direction: alternate;
+     }
+     @keyframes Ruahit2{
+         0%{ 
+            top: 0px;
+            left: 0px;
+         }
+         25%{
+            top: 250px; 
+            left: 0px;
+         }
+         50%{
+            top: 250px; 
+            left: 250px;
+         }
+         75%{
+            top: 250px; 
+            left: 0px;
+         }
+         100%{
+
+         }
+     }
+     @keyframes Rushit{
+         from{
+             width: 200px;
+         }
+         to{
+             width: 1200px;
+         }
+     }
+     .container{
+        background-color: chartreuse;
+     }
+ </style>
+ <body>
+     <div class="container">
+         <div class="box">
+            This is box
+         </div>
+     </div>
+</body>
+</html>
